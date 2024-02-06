@@ -6,7 +6,7 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/AKIRAGuo/dbr/v1/dialect"
+	"github.com/AKIRAGuo/dbr/v2/dialect"
 )
 
 // InsertStmt builds `INSERT INTO ...`.

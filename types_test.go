@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/AKIRAGuo/dbr/v1/dialect"
+	"github.com/AKIRAGuo/dbr/v2/dialect"
 	"github.com/stretchr/testify/require"
 )
 

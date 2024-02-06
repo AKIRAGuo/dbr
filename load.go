@@ -2,7 +2,7 @@ package dbr
 
 import (
 	"database/sql"
-	"github.com/AKIRAGuo/dbr/v1/dialect"
+	"github.com/AKIRAGuo/dbr/v2/dialect"
 	"reflect"
 )
 

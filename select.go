@@ -5,7 +5,7 @@ import (
 	"database/sql"
 	"strconv"
 
-	"github.com/AKIRAGuo/dbr/v1/dialect"
+	"github.com/AKIRAGuo/dbr/v2/dialect"
 )
 
 // SelectStmt builds `SELECT ...`.

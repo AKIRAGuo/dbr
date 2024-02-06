@@ -5,7 +5,7 @@ import (
 	"context"
 	"database/sql"
 	"fmt"
-	"github.com/AKIRAGuo/dbr/v1/dialect"
+	"github.com/AKIRAGuo/dbr/v2/dialect"
 	_ "go-aci"
 	"time"
 )

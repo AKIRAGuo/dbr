@@ -1,4 +1,4 @@
-module github.com/AKIRAGuo/dbr/v1
+module github.com/AKIRAGuo/dbr/v2
 
 go 1.17
 

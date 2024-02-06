@@ -3,7 +3,7 @@ package dbr
 import (
 	"testing"
 
-	"github.com/AKIRAGuo/dbr/v1/dialect"
+	"github.com/AKIRAGuo/dbr/v2/dialect"
 	"github.com/stretchr/testify/require"
 )
 
