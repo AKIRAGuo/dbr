@@ -185,7 +185,7 @@ func (s *tagStore) findACIValueByName(value reflect.Value, name []string, ret []
 		if value.IsNil() {
 			return
 		}
-		s.findValueByName(value.Elem(), name, ret, retPtr)
+		s.findACIValueByName(value.Elem(), name, ret, retPtr)
 	case reflect.Struct:
 		l := s.getACI(value.Type())
 		for i := 0; i < value.NumField(); i++ {
@@ -206,7 +206,7 @@ func (s *tagStore) findACIValueByName(value reflect.Value, name []string, ret []
 					}
 				}
 			}
-			s.findValueByName(fieldValue, name, ret, retPtr)
+			s.findACIValueByName(fieldValue, name, ret, retPtr)
 		}
 	}
 }
